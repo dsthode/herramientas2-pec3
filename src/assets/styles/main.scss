@@ -1,0 +1,42 @@
+/**
+ * Use this file to import partials.
+ * Do not include SCSS code in this file.
+ */
+
+ @tailwind base;
+ @tailwind components;
+
+@import "@fortawesome/fontawesome-free/css/all.css";
+
+.breadcrumb-container {
+    @apply flex flex-wrap p-0 mb-4 list-none font-body
+}
+
+.breadcrumb-last-element-tw {
+     @apply text-breadcrumb_active pl-2 content-before before:pr-2
+ }
+
+.band-member-tw {
+    @apply sm:w-full md:w-1/2 p-8 flex flex-col content-center mt-8 box-border;
+}
+
+.band-member-name-tw {
+    @apply text-center my-4 font-body font-black text-150
+}
+
+.band-member-image-tw {
+    @apply w-full bg-cover bg-no-repeat rounded-lg
+}
+
+.bio-header-tw {
+    @apply font-display text-center text-150 md:text-200 mt-8 mb-4 md:my-8
+}
+
+.bio-copy-tw {
+    @apply my-4
+}
+
+@tailwind utilities;
+/**
+ * Do NOT include anything else in this file!
+ */

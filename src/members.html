@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <include src="partials/head.html"></include>
+    <title>The Rolling Stones - Band members</title>
+  </head>
+  <body>
+    <include src="partials/header.html"></include>
+    <nav aria-label="breadcrumb" class="mx-auto w-95 md:w-4/5">
+      <ol class="breadcrumb-container">
+        <li class="text-site_blue underline"><a href="index.html">Home</a></li>
+        <li class="breadcrumb-last-element-tw" tw-content-before="/" aria-current="page">Band members</li>
+      </ol>
+    </nav>
+    <main class="flex flex-col justify-center w-95 md:w-4/5 mx-auto">
+      <h1 class="font-display text-300 text-center mb-2">Current members</h1>
+      <div class="flex md:flex-row flex-wrap sm:flex-col">
+        <div class="band-member-tw">
+          <div class="w-full"><img class="band-member-image-tw" src="assets/images/mick-jagger.jpg" alt="Photograph of Mick Jagger" /></div>
+          <div class="band-member-name-tw">Mick Jagger</div>
+          <div class="text-center font-body">Lead vocals</div>
+          <div class="font-body mt-4 text-center">Mick Jagger joined the band since its beginnings and has been performing as the main vocals for the group. Besides the main vocals he also performs background vocals, plays rhythm guitar, harmonica, percussion and keyboards.</div>
+        </div>
+        <div class="band-member-tw">
+          <div class="w-full"><img class="band-member-image-tw" src="assets/images/keith-richards.jpg" alt="Photograph of Keith Richards" /></div>
+          <div class="band-member-name-tw">Keith Richards</div>
+          <div class="text-center font-body">Lead guitars</div>
+          <div class="font-body mt-4 text-center">Keith Richards has been the lead guitar since the beginnings of the band, and also plays rhythm guitar, bass guitar, and lead and background vocals.</div>
+        </div>
+        <div class="band-member-tw">
+          <div class="w-full"><img class="band-member-image-tw" src="assets/images/charlie-watts.jpg" alt="Photograph og Charlie Watts" /></div>
+          <div class="band-member-name-tw">Charlie Watts</div>
+          <div class="text-center font-body">Drums</div>
+          <div class="font-body mt-4 text-center">Charlie Watts has been the drummer almost since the beginning (joined just one year after the band formation).</div>
+        </div>
+        <div class="band-member-tw">
+          <div class="w-full"><img class="band-member-image-tw" src="assets/images/ron-wood.jpg" alt="Photograph of Ron Wood" /></div>
+          <div class="band-member-name-tw">Ron Wood</div>
+          <div class="text-center font-body">Rhythm guitars</div>
+          <div class="font-body mt-4 text-center">Ron Wood joined the band in mid 70s, and has also been playing lead guitars, bass guitar and backing vocals.</div>
+        </div>
+      </div>
+    </main>
+    <include src="partials/footer.html" locals='{"modifier":"normal"}'></include>
+  </body>
+</html>
